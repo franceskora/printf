@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * parse_oct - substitute %0 by unsigned int argument number
+ * parse_oct - substitute %o by unsigned int argument number
  * @buff_dest: tring to change
  * @arg: va_list arg to change
- * @buff_count: index of buffer where the 0 of %0 is
+ * @buff_count: index of buffer where the o of %o is
  * Return: New index
  */
 int parse_oct(char *buff_dest, va_list arg, int buff_count)
